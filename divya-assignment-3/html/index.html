@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <form class="form" onsubmit="CheckValidation(event)">
+          <h2>Register With Us</h2>
+          <label for="name">Username</label>
+          <input
+            type="text"
+            
+            id="username"
+            name=" username"
+            placeholder="Enter username"
+          />
+          <small class="error1"></small><br />
+          <label for="email">Email</label>
+          <input
+            type="text"
+            
+            id="email"
+            name="email"
+            placeholder="Enter email"
+          />
+          <small class="error2"></small><br />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            
+            id="password"
+            name="password"
+            placeholder="Enter password"
+          />
+          <small class="error3"></small><br />
+          <label for="password">Confirm Password</label>
+          <input
+            type="password"
+            
+            id="confirmPassword"
+            name="password"
+            placeholder="Confirm Password"
+          />
+          <small class="error4"></small><br />
+          <input class="submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+
+    <script src="../javascript/index.js" async defer></script>
+  </body>
+</html>
